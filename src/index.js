@@ -2,7 +2,6 @@ import { initMinxin } from "./init"
 
 // 将所有方法耦合在一起
 function Vue(options){         //options就是用户的选项
-    debugger
     this._init(options)
 }
 
